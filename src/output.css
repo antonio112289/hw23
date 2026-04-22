@@ -7,10 +7,12 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-white: #fff;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --radius-2xl: 1rem;
     --radius-3xl: 1.5rem;
+    --radius-4xl: 2rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -248,6 +250,21 @@
   .ml-\[50px\] {
     margin-left: 50px;
   }
+  .ml-\[500px\] {
+    margin-left: 500px;
+  }
+  .ml-\[550px\] {
+    margin-left: 550px;
+  }
+  .ml-\[600px\] {
+    margin-left: 600px;
+  }
+  .ml-\[630px\] {
+    margin-left: 630px;
+  }
+  .ml-\[650px\] {
+    margin-left: 650px;
+  }
   .flex {
     display: flex;
   }
@@ -268,6 +285,9 @@
   }
   .h-\[40px\] {
     height: 40px;
+  }
+  .h-\[56\] {
+    height: 56;
   }
   .h-\[56px\] {
     height: 56px;
@@ -305,6 +325,9 @@
   .h-\[480px\] {
     height: 480px;
   }
+  .h-\[520px\] {
+    height: 520px;
+  }
   .h-\[656px\] {
     height: 656px;
   }
@@ -331,6 +354,9 @@
   }
   .w-\[164px\] {
     width: 164px;
+  }
+  .w-\[167px\] {
+    width: 167px;
   }
   .w-\[173px\] {
     width: 173px;
@@ -364,6 +390,9 @@
   }
   .w-\[411px\] {
     width: 411px;
+  }
+  .w-\[497px\] {
+    width: 497px;
   }
   .w-\[515px\] {
     width: 515px;
@@ -407,6 +436,9 @@
   .justify-center {
     justify-content: center;
   }
+  .justify-end {
+    justify-content: flex-end;
+  }
   .gap-\[10px\] {
     gap: 10px;
   }
@@ -422,14 +454,26 @@
   .gap-\[50px\] {
     gap: 50px;
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
   }
+  .rounded-4xl {
+    border-radius: var(--radius-4xl);
+  }
+  .rounded-\[5px\] {
+    border-radius: 5px;
+  }
   .rounded-\[10px\] {
     border-radius: 10px;
+  }
+  .rounded-\[16px\] {
+    border-radius: 16px;
   }
   .rounded-\[tl\] {
     border-radius: tl;
@@ -452,6 +496,9 @@
   .border-\[gray\] {
     border-color: gray;
   }
+  .bg-\[\#007BFF\] {
+    background-color: #007BFF;
+  }
   .bg-\[\#8cddba\] {
     background-color: #8cddba;
   }
@@ -466,6 +513,9 @@
   }
   .bg-\[\#DDDDDD\] {
     background-color: #DDDDDD;
+  }
+  .bg-\[\#F4FBF8\] {
+    background-color: #F4FBF8;
   }
   .bg-\[\#FAFAFA\] {
     background-color: #FAFAFA;
@@ -509,11 +559,20 @@
   .bg-cover {
     background-size: cover;
   }
+  .bg-left {
+    background-position: left;
+  }
   .bg-right {
     background-position: right;
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
+  }
+  .px-\[20px\] {
+    padding-inline: 20px;
+  }
+  .py-\[10px\] {
+    padding-block: 10px;
   }
   .pb-\[100px\] {
     padding-bottom: 100px;
@@ -588,6 +647,9 @@
   }
   .text-transparent {
     color: transparent;
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .underline {
     text-decoration-line: underline;
