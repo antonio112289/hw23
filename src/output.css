@@ -340,6 +340,9 @@
   .h-\[656px\] {
     height: 656px;
   }
+  .h-\[677px\] {
+    height: 677px;
+  }
   .w-\[0px\] {
     width: 0px;
   }
@@ -553,8 +556,17 @@
   .bg-\[url\] {
     background-color: url;
   }
+  .bg-\[url\(\'\.\.\/\.png\'\)\] {
+    background-image: url('../.png');
+  }
+  .bg-\[url\(\'\.\.\/2\.png\'\)\] {
+    background-image: url('../2.png');
+  }
   .bg-\[url\(\'\.\.\/image24\.png\'\)\] {
     background-image: url('../image24.png');
+  }
+  .bg-\[url\(\'\.\.png\'\)\] {
+    background-image: url('..png');
   }
   .bg-\[url\(\'\.\/\'\)\] {
     background-image: url('./');
