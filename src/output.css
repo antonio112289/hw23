@@ -223,8 +223,14 @@
   .m-auto {
     margin: auto;
   }
+  .mt-\[15px\] {
+    margin-top: 15px;
+  }
   .mt-\[40px\] {
     margin-top: 40px;
+  }
+  .mt-\[50px\] {
+    margin-top: 50px;
   }
   .mt-\[70px\] {
     margin-top: 70px;
@@ -234,6 +240,15 @@
   }
   .mt-\[150px\] {
     margin-top: 150px;
+  }
+  .mr-\[500px\] {
+    margin-right: 500px;
+  }
+  .mr-\[900px\] {
+    margin-right: 900px;
+  }
+  .mb-\[50px\] {
+    margin-bottom: 50px;
   }
   .mb-\[100px\] {
     margin-bottom: 100px;
@@ -267,6 +282,9 @@
   }
   .ml-\[650px\] {
     margin-left: 650px;
+  }
+  .ml-\[900px\] {
+    margin-left: 900px;
   }
   .flex {
     display: flex;
@@ -309,6 +327,9 @@
   }
   .h-\[193px\] {
     height: 193px;
+  }
+  .h-\[208px\] {
+    height: 208px;
   }
   .h-\[310\] {
     height: 310;
@@ -382,6 +403,15 @@
   .w-\[194px\] {
     width: 194px;
   }
+  .w-\[200px\] {
+    width: 200px;
+  }
+  .w-\[250px\] {
+    width: 250px;
+  }
+  .w-\[264px\] {
+    width: 264px;
+  }
   .w-\[300px\] {
     width: 300px;
   }
@@ -421,6 +451,12 @@
   .w-\[1000px\] {
     width: 1000px;
   }
+  .w-\[1062\] {
+    width: 1062;
+  }
+  .w-\[1062px\] {
+    width: 1062px;
+  }
   .w-\[full\] {
     width: full;
   }
@@ -457,8 +493,17 @@
   .justify-end {
     justify-content: flex-end;
   }
+  .gap-\[8px\] {
+    gap: 8px;
+  }
   .gap-\[10px\] {
     gap: 10px;
+  }
+  .gap-\[15px\] {
+    gap: 15px;
+  }
+  .gap-\[20p\] {
+    gap: 20p;
   }
   .gap-\[20px\] {
     gap: 20px;
@@ -471,6 +516,9 @@
   }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[100px\] {
+    gap: 100px;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -550,6 +598,9 @@
   .bg-\[black\] {
     background-color: black;
   }
+  .bg-\[blue\] {
+    background-color: blue;
+  }
   .bg-\[u\] {
     background-color: u;
   }
@@ -609,6 +660,15 @@
   }
   .py-\[10px\] {
     padding-block: 10px;
+  }
+  .pt-\[40px\] {
+    padding-top: 40px;
+  }
+  .pt-\[50px\] {
+    padding-top: 50px;
+  }
+  .pr-\[900px\] {
+    padding-right: 900px;
   }
   .pb-\[100px\] {
     padding-bottom: 100px;
@@ -674,6 +734,9 @@
   }
   .text-\[\#\] {
     color: #;
+  }
+  .text-\[1\] {
+    color: 1;
   }
   .text-\[whi\] {
     color: whi;
