@@ -239,12 +239,15 @@
   .justify-between {
     justify-content: space-between;
   }
-  .justify-center {
-    justify-content: center;
-  }
   .gap-\[10px\] {
     gap: 10px;
   }
+<<<<<<< HEAD
+  .gap-\[10px\] {
+    gap: 10px;
+  }
+=======
+>>>>>>> 296d88f95dd40456919c60a07c528cc62a029d76
   .gap-\[30px\] {
     gap: 30px;
   }
@@ -253,9 +256,6 @@
   }
   .gap-\[50px\] {
     gap: 50px;
-  }
-  .rounded-2xl {
-    border-radius: var(--radius-2xl);
   }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
